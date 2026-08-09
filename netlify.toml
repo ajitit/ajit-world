@@ -9,8 +9,5 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-[[redirects]]
-  from = "https://www.ajit.world/*"
-  to = "https://ajit.world/:splat"
-  status = 301
-  force = true
+# NOTE: apex ajit.world is NOT this site — it's routed elsewhere (homelab platform)
+# via Cloudflare DNS. This site lives at www.ajit.world only. No apex redirect here.
